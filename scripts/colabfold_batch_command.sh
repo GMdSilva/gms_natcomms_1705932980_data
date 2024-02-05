@@ -1,0 +1,1 @@
+colabfold_batch --num-seeds 32 --max-msa 256:512 --use-dropout <filename.a3m> <output_dir/>
