@@ -8,13 +8,13 @@ In our manuscript, we use jackhmmr to generate the MSAs, and run AlphaFold2 via 
 
 # System Requirements:
 
-RAM: at least 32 GB (16 GB with --db_preset=reduced_dbs).
+RAM: at least 32 GB (16 GB with --db_preset=reduced_dbs). More RAM might be necessary if using very deep MSAs (>100k sequences).
 
 CPU: A modern multicore Intel/AMD CPU.
 
-GPU: nVidia (e.g. A100), the more GPU RAM it has the longer proteins you can fold.
+GPU: Currently only tested in nVidia GPUs (e.g. A100). Should work with CPUs, but significantly slower.
 
-Disk: 3 TB of disk space, ideally an SSD for faster MSA search (1 TB with reduced_dbs) if querying local databases. If using the Google Collab Notebook , the space requirements are much lower (about 10 GBs should be sufficient).
+Disk: 3 TB of disk space, ideally an SSD for faster MSA search (1 TB with reduced_dbs) if querying local databases. If using the Google Collab Notebook to build MSAs, the space requirements are much lower (about 10 GBs should be sufficient).
 
 # Installation Guide:
 
@@ -26,15 +26,15 @@ https://github.com/EddyRivasLab/hmmer/tree/master
 ### collabfold_batch
 https://github.com/lipan6461188/AlphaFold-StepBySte
 
-We strongly recommend the use of our Google Collab notebook for generating MSAs. Installation for its usage can be found on the notebook itself.
+We strongly recommend the use of our Google Collab notebook for generating MSAs. Instructions for its usage can be found on the notebook itself.
 
-### Collab
+### Notebooks
 
-https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE
+https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/rel_state_populations_af2_msa_generation.ipynb
 
 or
 
-https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/rel_state_populations_af2_msa_generation.ipynb
+https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE
 
 
 # Demo:
