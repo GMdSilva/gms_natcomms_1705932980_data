@@ -41,7 +41,7 @@ https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/rel_state_popul
 
 1. Run the Google Collab notebook with default parameters, exporting the MSA to Google Drive as instructed in the notebook itself.
 2. Run collabfold_batch or another implementation of AF2 using the MSA generated on 1 as an input, following the instructions on the Google Collab for setting the AF2 prediction parameters.
-3. Analyze predictions using a software of choice (PyMol 2.0 or above recommended).
+3. Analyze predictions using a software of choice (PyMol, PyTraj, MDAnalysis, MDTraj, etc.).
 
 # Instructions for Reproduction:
 
