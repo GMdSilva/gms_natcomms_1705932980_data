@@ -30,11 +30,7 @@ We strongly recommend the use of our Google Collab notebook for generating MSAs.
 
 ### Notebooks
 
-https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/rel_state_populations_af2_msa_generation.ipynb
-
-or
-
-https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE
+https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE](https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE?usp=sharing
 
 
 # Demo:
