@@ -30,8 +30,7 @@ We strongly recommend the use of our Google Collab notebook for generating MSAs.
 
 ### Notebooks
 
-https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE](https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE?usp=sharing
-
+[https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE](https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE?usp=sharing)
 
 # Demo:
 
@@ -41,5 +40,5 @@ https://colab.research.google.com/drive/1BhOsy9UL41mE0UN5eYiMxwpFXkQAA8iE](https
 
 # Instructions for Reproduction:
 
-1. Run the Google Collab notebook with default parameters using the sequences shared in [sequences](https://github.com/GMdSilva/rel_state_pop_af2_raw_data/tree/main/sequences), exporting the MSA to Google Drive as instructed in the notebook itself.
-2. Run collabfold_batch or another implementation of AF2 using the MSA generated on 1 as an input, following the command described in [here](https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/scripts/colabfold_batch_command.sh)https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/scripts/colabfold_batch_command.sh. Adjust input and output names as needed.
+1. Run the Google Collab notebook with default parameters using the sequences shared in [sequences](https://github.com/GMdSilva/gms_natcomms_1705932980_data/tree/main/sequences), exporting the MSA to Google Drive as instructed in the notebook itself.
+2. Run collabfold_batch or another implementation of AF2 using the MSA generated on 1 as an input, following the command described in [here]([https://github.com/GMdSilva/rel_state_pop_af2_raw_data/blob/main/scripts/colabfold_batch_command.sh](https://github.com/GMdSilva/gms_natcomms_1705932980_data/blob/main/scripts/colabfold_batch_command.sh) Adjust input and output names as needed.
