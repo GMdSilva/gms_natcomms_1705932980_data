@@ -24,7 +24,7 @@ Installation instructions for jackhmmr and/or collabfold_batch can be found at t
 https://github.com/EddyRivasLab/hmmer/tree/master
 
 ### collabfold_batch
-https://github.com/lipan6461188/AlphaFold-StepBySte
+https://github.com/lipan6461188/AlphaFold-StepByStep
 
 We strongly recommend the use of our Google Collab notebook for generating MSAs. Instructions for its usage can be found on the notebook itself.
 
