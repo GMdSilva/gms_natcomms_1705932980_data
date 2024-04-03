@@ -1,5 +1,20 @@
 Sample raw data for results discussed in Predicting Relative Populations of Protein Conformations without a Physics Engine Using AlphaFold2
 
+# April 3, 2024 update
+
+You can now run a fully self-contained sample of our AlphaFold2 subsampling for conformational ensemble predictions directly from Collab!
+
+The notebook below is designed to:
+
+1. Building an MSA for your target protein
+2. Trying different subsampling conditions
+3. General analysis of the resulting ensemble with basic heuristics for measuring diversity and quality
+4. Exporting results
+
+It uses Abl1 as an example, but should work with other systems as well, all you need is the sequence for the protein you're looking to make predictions for.
+
+[Try it here](https://colab.research.google.com/github/GMdSilva/gms_natcomms_1705932980_data/blob/main/AlphaFold2_Traj_v1.ipynb)
+
 # Preface:
 
 The approach we describe in the manuscript does not require any specialized software besides the ones generally used to make predictions with AlphaFold 2. Namely, it requires a Multiple Sequence Alignment (MSA) that can be generated through a variety of methods (such as MMSEQS2 [https://github.com/soedinglab/MMseqs2] or jackhmmr [https://github.com/EddyRivasLab/hmmer/tree/master]) and the AlphaFold2 https://github.com/lipan6461188/AlphaFold-StepByStep executable itself.
