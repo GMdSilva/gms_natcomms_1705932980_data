@@ -13,7 +13,13 @@ The notebook below is designed to:
 
 It uses Abl1 as an example, but should work with other systems as well, all you need is the sequence for the protein you're looking to make predictions for.
 
-[Try it here](https://colab.research.google.com/github/GMdSilva/gms_natcomms_1705932980_data/blob/main/AlphaFold2_Traj_v1.ipynb)
+For monomers:
+
+https://colab.research.google.com/github/GMdSilva/gms_natcomms_1705932980_data/blob/main/AlphaFold2_Traj_v1.ipynb
+
+For multimers:
+
+https://colab.research.google.com/github/GMdSilva/gms_natcomms_1705932980_data/blob/main/AlphaFold2_Traj_multimer_v0_1_0.ipynb
 
 # Preface:
 
